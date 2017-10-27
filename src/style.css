@@ -1,0 +1,44 @@
+
+.canvasWrap {
+    width: 300px;
+    height: 150px;
+    position: relative;
+    border: 2px solid blue;
+}
+
+.canvasWrap canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: crosshair;
+}
+
+.toolbarWraper {
+    margin: 20px 0 0 20px;
+}
+
+ul {
+    padding: 0;
+}
+ul li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    background-color: #eee;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+ul.sizeList li {
+    text-align: center;
+    margin-left: 3px;
+}
+
+ul.sizeList span {
+    background-color: blue;
+    display: inline-block;
+}
+
